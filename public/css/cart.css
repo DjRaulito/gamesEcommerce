@@ -1,0 +1,134 @@
+.cart-page {
+    background-color: #4618ac;
+    color: #fff;
+    padding: 50px 0;
+}
+.page-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.cart-items {
+    background-color: #32117d;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 10px;
+}
+
+.table-header {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ffc233;
+}
+.cart-item {
+    display: flex;
+    align-items: center;
+}
+
+.item-image {
+    width: 30%;
+    text-align: center;
+}
+
+.item-image img {
+    width: 100%;
+    max-width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.item-name {
+    width: 20%;
+    text-align: center;
+}
+
+.item-quantity {
+    width: 20%;
+    text-align: center;
+}
+
+.item-price {
+    width: 20%;
+    text-align: center;
+}
+
+.item-remove svg {
+    cursor: pointer;
+}
+.remove-btn {
+    width: fit-content;
+    background-color: transparent;
+    border: none;
+}
+
+.cart-total {
+    margin-top: 20px;
+    text-align: right;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.total-price {
+    color: #ffdf6b;
+}
+
+.cart-actions {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.clear-btn {
+    background-color: #ffdf6b;
+    color: #4618ac;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.alert-success {
+    background-color: #ffdf6b;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 30px;
+}
+
+.alert-success p {
+    color: #4618ac;
+}
+.btn {
+    background-color: #ffdf6b;
+    color: #4618ac;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.input {
+    border-radius: 10px;
+    outline: 2px solid #ffdf6b;
+    border: 0;
+    background-color: transparent;
+    outline-offset: 3px;
+    padding: 10px 1rem;
+    transition: 0.25s;
+    width: 50px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.input:focus {
+    outline-offset: 5px;
+    background-color: #fff;
+}
